@@ -39,3 +39,77 @@ Web Render: [NBViewer.org](https://nbviewer.org/github/ft-p1team05/canhomeowner/
      - What is the difference between investing in home vs. renting & investing difference in stock market? [Moh]
      - What is the average real estate purchase price for each age group afford? [Juil]
      
+### What economic factors affect home prices?
+*Kei*
+
+We investigated the correlations of home prices across Canada with the interest rate, inflation rate, and immigration rate. We used ten-year historic data from 2014 to 2021.  *Visualization tool:  Seaborn heatmap.*
+
+![Heatmap](plots/kei/heatmap.png)
+
+By observing heatmap, the Canadian home prices are negatively correlated with the interest rate, and the inflation rate, and immigration rate. However, we should consider other factors such as economic growth, unemployment rate, population growth, and also regional factors.
+
+We also investigated an affordability of houses across Canada. Data is based in December 2022. We plot using HvPlot to  show the map and each circle represents average home prices. By sliding your affordable price, it will plots any home prices and below.
+
+![GeoPlot](plots/kei/home_price-geoplot.png)
+
+The house average price across Canada was between $260,000 and $1.3 million. 
+
+### Should you finance or rent?
+*Moh*
+
+Average Mortgage Monthly Payments and Gross Rent
+
+![Line Graph](plots/moh/mortgage_vs_rent.png)
+
+Average Mortgage Monthly Payments (pct_change) and  Gross Rent (pct_change)
+
+![Percentage Change](plots/moh/mortgage_vs_rent-percentchange.png)
+
+### Will I be able to afford if the interest rate increases?
+
+While interest rate is one determinant, how much you can one afford to spend on a home in Canada is primarily determined by how much you can borrow from a mortgage provider. Which simply means that unless you have enough cash to purchase a property outright, you will need to source the funds for an external party. 
+
+![Interest Rates](plots/romain/interest_rates.png)
+
+The calculator can estimates your living expenses.
+
+![Mortgage Calculator](plots/romain/calculator.png)
+
+With these numbers, you’ll be able to calculate how much you can afford to borrow. You can also change your amortization period and mortgage rate to see how that would affect your mortgage affordability and your monthly payments.
+
+### How big of a factor is school quality?
+
+Other than size and price the investors factors real estates based on schools.
+
+**HOW ARE SCHOOLS DETERMINED?**
+
+1. Schools are determined based on Rankings. 
+2. Ranking happens based on Graduation rate, Literacy rate, School Demographics (ethnicity and socioeconomic status of students, teacher qualifications, class size, and graduation rates.) and activities available after school hours.
+3. The investors who don’t have school aged kids in their family, still look for properties located near school zones which is because, it will help in increasing the resale value in the future.
+4. There are 83 School Boards in Ontario which has 4024 elementary school & intermediate schools and there are 902 secondary schools. The data provided also gives the number of schools present in each regions in province which helps in narrowing down the region you would like to invest/rent.
+
+![Literacy and Graduation Rates](plots/arun/graduation_vs_literacy-bar.png)
+
+### How affordable is Canadian real estate based on income?
+
+At a given income level, what home price are Canadians able to afford?
+
+![Home Prices vs Affordability based on Income](plots/juil/affordability_vs_price.png)
+
+There is a clear trend of home prices crossing outside of lower income bracket affordability.
+
+## Challenges
+
+Getting historical and clean real estate data.
+
+Merging everyone’s code into the same notebook.
+
+Visualizing actionable results.
+
+## Links
+
+Github Repo: 
+[https://github.com/ft-p1team05/canhomeowner](https://github.com/ft-p1team05/canhomeowner)
+
+GeoPy:
+[https://geopy.readthedocs.io/en/stable/](https://geopy.readthedocs.io/en/stable/)
