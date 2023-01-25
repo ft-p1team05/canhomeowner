@@ -13,10 +13,18 @@ Web Render: [NBViewer.org](https://nbviewer.org/github/ft-p1team05/canhomeowner/
 
 ## Data Resources
 
-* [open.canada.ca](https://open.canada.ca/en/open-data)
+* [CREA - The Canadian Real Estate Association](https://stats.crea.ca/en-CA/)
+  * [Seasonally Adjusted Home Price Index and Benchmark](Resources/Seasonally_Adjusted.xlsx)
+* [Bank of Canada](https://www.bankofcanada.ca/rates/)
+  * [Interest Rates](https://www.bankofcanada.ca/rates/interest-rates/canadian-interest-rates/)
+  * [Inflation](https://www.bankofcanada.ca/rates/indicators/capacity-and-inflation-pressures/inflation/)
+* [Statistics Canada](https://www.statcan.gc.ca/en/start)
+  * [Immigration](https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?topic=9&lang=E&dguid=2021A000011124)
+* [CMHC - Canada Mortgage and Housing Corporation](https://www.cmhc-schl.gc.ca/en/professionals/housing-markets-data-and-research)
+  * [Rental Market Data](https://www.cmhc-schl.gc.ca/en/professionals/housing-markets-data-and-research/housing-data/data-tables/rental-market)
+  * [Mortgage Data](https://www.cmhc-schl.gc.ca/en/professionals/housing-markets-data-and-research/housing-data/residential-mortgage-industry-data-dashboard)
 * [data.ontario.ca](https://data.ontario.ca/) 
-* [open.toronto.ca](https://open.toronto.ca/catalogue)
-* [CMHC](https://www.cmhc-schl.gc.ca/en/professionals/housing-markets-data-and-research)
+  * [Ontario Public School Enrollment](https://data.ontario.ca/dataset/ontario-public-schools-enrolment)
 
 ## Research Questions
   - How do financial and demographic variables influence an individual's choice making between renting and buying real estate?
