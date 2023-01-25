@@ -5,6 +5,12 @@ UofT Fintech Bootcamp Project01
 
 Project Abstract [[Presentation](https://docs.google.com/presentation/d/e/2PACX-1vQpqhoqND5ZDTo_8uhrVo5SECL_wze3Q7KL7XBq3krg9yFWrBj1Em7eT8ax1O9k5Radiz0f1VdGi9rI/pub?start=false&loop=false&delayms=3000)]
 
+## Code 
+
+**Primary Jupyter Lab Notebook:** [ProjectOne-Grp5.ipynb](ProjectOne-Grp5.ipynb)
+
+Web Render: [NBViewer.org](https://nbviewer.org/github/ft-p1team05/canhomeowner/blob/main/ProjectOne-Grp5.ipynb)
+
 ## Data Resources
 
 * [open.canada.ca](https://open.canada.ca/en/open-data)
